@@ -3,10 +3,9 @@
 <test name = "Smock Test Cases">
 <classes>
 
-<class name= "example_test.SuiteExample">
-
-</class>
-
+<class name= "example_test.SuiteExample"/>
+<class name= "example_test.DependencyAnnotation"/>
+<class name= "example_test.TestNgExample"/> 
 </classes>
 </test>
 </suite>

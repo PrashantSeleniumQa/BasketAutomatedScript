@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Basket Test Build" duration-ms="10" started-at="2017-10-07T15:36:24Z" finished-at="2017-10-07T15:36:24Z">
+  <suite name="Default suite" duration-ms="34161" started-at="2017-10-07T20:40:40Z" finished-at="2017-10-07T20:41:14Z">
     <groups>
     </groups>
-    <test name="Smock Test Cases" duration-ms="10" started-at="2017-10-07T15:36:24Z" finished-at="2017-10-07T15:36:24Z">
-      <class name="example_test.SuiteExample">
-        <test-method status="PASS" signature="InstallSoftware()[pri:0, instance:example_test.SuiteExample@224edc67]" name="InstallSoftware" is-config="true" duration-ms="12" started-at="2017-10-07T21:06:24Z" finished-at="2017-10-07T21:06:24Z">
+    <test name="Default test" duration-ms="34161" started-at="2017-10-07T20:40:40Z" finished-at="2017-10-07T20:41:14Z">
+      <class name="com.dataProvider.TestNgExample">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.dataProvider.TestNgExample@59fa1d9b]" name="BeforeTest" duration-ms="34136" started-at="2017-10-08T02:10:40Z" finished-at="2017-10-08T02:11:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InstallSoftware -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:example_test.SuiteExample@224edc67]" name="AfterSuite" is-config="true" duration-ms="3" started-at="2017-10-07T21:06:24Z" finished-at="2017-10-07T21:06:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- example_test.SuiteExample -->
-    </test> <!-- Smock Test Cases -->
-  </suite> <!-- Basket Test Build -->
+        </test-method> <!-- BeforeTest -->
+      </class> <!-- com.dataProvider.TestNgExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

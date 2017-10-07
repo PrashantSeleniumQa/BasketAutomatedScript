@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Basket Test Build">
+<test name = "Smock Test Cases">
+<packages>
+<package name = "example_test.SecondPack"/>
+<package name = "example_test"/>
+</packages>
+</test>
+</suite>

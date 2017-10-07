@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNg Group Example">
+	<test name="Group Test">
+		<groups>
+			<run>
+					<include name = "priority1"/>
+
+			</run>
+
+		</groups>
+<classes>
+
+<class name = "example_test.TestNgExample" />
+
+</classes>
+	</test>
+
+
+</suite>

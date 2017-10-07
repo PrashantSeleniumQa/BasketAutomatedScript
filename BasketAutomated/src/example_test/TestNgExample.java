@@ -35,14 +35,14 @@ public class TestNgExample {
 		System.out.println("My After Method");
 	}
 	
-	@AfterTest
-	public static void afterClass()
+	@Test (groups = {"priority1"})
+	public void afterClass()
 	{
 		System.out.println("Delete Cookies after Test");
 	}
 	
-	@Test
-	public static void MyFirstTest()
+	@Test(groups = {"priority1"},dependsOnMethods = {"afterClass"})
+	public void MyFirstTest()
 	{
 		System.out.println("testNG Test");
 	}
