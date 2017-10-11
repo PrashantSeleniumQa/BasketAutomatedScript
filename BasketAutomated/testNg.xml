@@ -3,7 +3,7 @@
 <test name = "Smock Test Cases">
 <classes>
 
-<class name= "example_test.SuiteExample"/>
+<class name= "com.BaseFile.SetupBase"/>
 <class name= "example_test.DependencyAnnotation"/>
 <class name= "example_test.TestNgExample"/> 
 </classes>
