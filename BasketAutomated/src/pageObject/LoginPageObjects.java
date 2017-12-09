@@ -3,32 +3,47 @@ package pageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageObjects {
 
 	WebDriver driver;
 	public LoginPageObjects(WebDriver driver) {
 		// TODO Auto-generated constructor stub
-		
-		this.driver = driver;
-	}
-	@FindBy(xpath=".//input[@id = 'firstName']")
-	WebElement txtFirstName;
 
-	
-	@FindBy(xpath=".//input[@id = 'lastName']")
-	WebElement txtLastName;
-	
-	@FindBy(xpath=".//input[@id = 'email']")
-	WebElement email;
-	
-	@FindBy(xpath=".//input[@id = 'n_password']")
-	WebElement password;
-	
-	@FindBy(xpath=".//button[@id = 'btn btn-blue log_btn']")
-	WebElement btnSignUp;
-	
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	@FindBy(xpath=".//input[@id = 'txt_name']")
+	WebElement userEmail;
+
+
+	@FindBy(xpath=".//input[@id = 'password']")
+	WebElement passeord;
+
+	@FindBy(xpath=".//a[@id = 'login_submit']")
+	WebElement btnLogin;
+
 	@FindBy(xpath=".//input[@class = 'check_txtbx_chck remember']")
 	WebElement chkRememberMe;
-	
+
+	@FindBy(xpath=".//div[@class='alert alert-danger']")
+	WebElement ErrorMsg;
+
+
+
+	public WebElement userEmail() {
+
+		return userEmail;
+	}
+
+	public WebElement userPassword() {
+
+		return passeord;
+	}
+	public WebElement submitBtn() {
+
+		return btnLogin;
+	}
 }
+

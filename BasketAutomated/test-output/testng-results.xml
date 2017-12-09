@@ -2,15 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13867" started-at="2017-10-10T21:03:08Z" finished-at="2017-10-10T21:03:22Z">
+  <suite name="Default suite" duration-ms="27183" started-at="2017-10-14T10:34:07Z" finished-at="2017-10-14T10:34:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13867" started-at="2017-10-10T21:03:08Z" finished-at="2017-10-10T21:03:22Z">
+    <test name="Default test" duration-ms="27183" started-at="2017-10-14T10:34:07Z" finished-at="2017-10-14T10:34:34Z">
       <class name="testCaseFiles.LoginPageValidation">
-        <test-method status="PASS" signature="NavigateBaseUrl()[pri:1, instance:testCaseFiles.LoginPageValidation@28d25987]" name="NavigateBaseUrl" duration-ms="13805" started-at="2017-10-11T02:33:08Z" finished-at="2017-10-11T02:33:22Z">
+        <test-method status="PASS" signature="NavigateBaseUrl()[pri:1, instance:testCaseFiles.LoginPageValidation@3532ec19]" name="NavigateBaseUrl" duration-ms="27147" started-at="2017-10-14T16:04:07Z" finished-at="2017-10-14T16:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateBaseUrl -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testCaseFiles.LoginPageValidation@3532ec19]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2017-10-14T16:04:34Z" finished-at="2017-10-14T16:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- testCaseFiles.LoginPageValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -6,6 +6,7 @@
       <class name="testCaseFiles.LoginPageValidation">
         <methods>
           <include name="NavigateBaseUrl"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- testCaseFiles.LoginPageValidation -->
     </classes>

@@ -17,10 +17,11 @@ import org.testng.annotations.BeforeSuite;
 public class SetupBase {
 
 	public static WebDriver driver;
+	 public Properties prop = new Properties();
 	
 	public WebDriver InitializeDriver() throws IOException
 	{
-		Properties prop = new Properties();
+		
 		FileInputStream f = null;
 		try {
 			f = new FileInputStream("C:\\Users\\india\\workspace\\Basket\\BasketAutomated\\src\\resource\\datadriven.properties");
